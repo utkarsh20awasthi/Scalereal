@@ -1,0 +1,49 @@
+  .countdown-container {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    margin-left: 40px;
+  }
+
+  .countdown-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .showcase{
+    border-radius: 2px;
+    border: black solid 2px;
+    box-shadow:burlywood;
+    padding: 10px
+
+  }
+  
+  .countdown-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-left: 35px;
+  }
+  
+  .countdown-time {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    width: 100%;
+    margin-right: 25px;
+  }
+  
+  .countdown-container button{
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+
+  @media only screen and (max-width:500px){
+    .countdown-time{
+        margin-right:15px;
+    }
+    .countdown-container{
+        margin-right:15px;
+
+    }
+  }
